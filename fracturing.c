@@ -33,7 +33,7 @@ double calculateDistance() {
 
 
 // With help of helper function, able to re-enter value to calculate perimeter. 
-double calculate_perimeter() {
+double calculatePerimeter() {
 
     double diameter = calculateDistance();          // Taking the distance calulated from the previous function as a base for the definition of diameter.
     double radius = diameter / 2;                   // Calculating radius by dividing  diameter by 2.
